@@ -62,6 +62,18 @@ public void displayCustomerInfo() {
  ```
     
   **використання цих методів** в методі ````main```` класу````CustomerTest````
+  ```java
+  public class CustomerTest {
+    public static void main(String[] args) {
+        Customer customer = new Customer();
+        customer.setID(5);
+        customer.setIsNew(false);
+        customer.setTotal(123.0);
+        customer.displayCustomerInfo();
+    }
+}
+```
+***Результат***
   
   ![](https://github.com/ppc-ntu-khpi/java-1-Zheka2025/blob/main/Solution/advanced.png?raw=true)
 
